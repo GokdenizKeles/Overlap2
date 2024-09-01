@@ -1,0 +1,103 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-family: "Lexend";
+}
+.container {
+  width: 600px;
+  height: 600px;
+  text-align: center;
+  position: relative;
+  margin-inline: auto;
+   background-color: black;
+   margin-top: 50px;
+   color: #fff;
+  margin-left: 150px;
+  }
+.container div:nth-child(1) {
+  width: 200px;
+  height: 200px;
+  top: 200px;
+  left: 150px;
+  position: absolute;
+  background: rgba(231, 111, 81, 1);
+  border-radius: 50%;
+   padding-top: 85px;
+}
+.container div:nth-child(2) {
+  width: 200px;
+height: 200px;
+top: 200px;
+left: 200px;
+  border-radius: 50%;
+  position: absolute;
+  background: rgba(1, 138, 223, 1);
+  padding-top: 85px;
+
+}
+.container div:nth-child(3) {
+  width: 200px;
+height: 200px;
+top: 200px;
+left: 250px;
+background: rgba(233, 196, 106, 1);
+position: absolute;
+border-radius: 50%;
+padding-top: 85px;
+}
+.a-overlap {
+  width: 600px;
+  height: 600px;
+  text-align: center;
+  position: relative;
+  margin-inline: auto;
+   background-color: black;
+   margin-top: 50px;
+   color: #fff;
+  font-size: 32px;
+  line-height: 50px;
+  margin-left: 250px;
+}
+.a-overlap div:nth-child(1) {
+  width: 200px;
+  height: 200px;
+  top: 200px;
+  left: 150px;
+  position: absolute;
+  background: rgba(231, 111, 81, 1);
+  border-radius: 50%;
+   padding-top: 80px;
+   transition: transform 3s;
+  }
+.a-overlap div:nth-child(2) {
+  width: 200px;
+height: 200px;
+top: 200px;
+left: 200px;
+  border-radius: 50%;
+  position: absolute;
+  background: rgba(1, 138, 223, 1);
+  padding-top: 80px;
+  transition: transform 3s;
+}
+.a-overlap div:nth-child(3) {
+  width: 200px;
+height: 200px;
+top: 200px;
+left: 250px;
+background: rgba(233, 196, 106, 1);
+position: absolute;
+border-radius: 50%;
+padding-top: 80px;
+ transition: transform 3s;
+}
+.a-overlap div:hover {
+  transform: scale(1.5);
+  z-index: 3;
+}
+.dnt {
+  display: inline-block;
+}
